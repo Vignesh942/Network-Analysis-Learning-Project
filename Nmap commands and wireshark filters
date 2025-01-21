@@ -1,0 +1,15 @@
+
+#sending icmp packets
+ping target_ip
+
+# nmap scan 
+sudo nmap -sT -sV target_ip
+
+#wireshark filters for finding icmp packets
+icmp
+
+#filter for finding three way handshake
+tcp.flags.syn == 1 && tcp.flags.ack == 1
+
+ Disclaimer
+This project is for educational purposes only. 
