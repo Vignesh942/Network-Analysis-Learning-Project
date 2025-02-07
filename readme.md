@@ -33,7 +33,6 @@ ICMP traffic monitoring
 Custom Wireshark filters
 
 
-Documentation
 
 Packet capture analysis
 Network mapping methodology
